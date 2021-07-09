@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  padding: 5% 0;
+  color: linen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  background-image: url("https://wallpapertag.com/wallpaper/full/b/7/e/118691-large-black-gradient-background-1920x1080.jpg")
+}
+
+table,th,td {
+  width: 30%;
+  border: 2px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color:linen;
+}
