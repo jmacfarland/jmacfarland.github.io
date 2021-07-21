@@ -15,6 +15,7 @@ header {
 	background-color: #000032
 }
 
+/* navigation bar on left*/
 nav {
 	position: fixed;
 	height: 100%;
@@ -51,16 +52,19 @@ h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
+/* content part.. add padding so it clears the sidebar */
 #content {
 	padding-left: 230px;
 	display: block;
 }
 
+/* content image */
 #content img {
 	float: left;
 	padding-right: 40px;
 }
 
+/* content list.. change marker style */
 #content ul {
 	list-style-image: url("marker.gif");
 	list-style-position: inside;
@@ -79,6 +83,7 @@ h2 {
 dt {
 	color: #000033;
 }
+/* footer */
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 	padding-left: 230px;
