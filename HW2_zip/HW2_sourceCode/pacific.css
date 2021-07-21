@@ -1,0 +1,86 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: ;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	display: block;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000032
+}
+
+nav {
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	background-color: lightblue;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+	font-weight:bolder;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#content {
+	padding-left: 230px;
+	display: block;
+}
+
+#content img {
+	float: left;
+	padding-right: 40px;
+}
+
+#content ul {
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+}
+
+#contact {
+	font-size: 90%;
+	display: block;
+}
+
+.resort {
+	color:#3399ff;
+	display: block;
+}
+
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	padding-left: 230px;
+	font-style:italic;
+}
