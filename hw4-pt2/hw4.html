@@ -1,0 +1,54 @@
+<!-- Jamison MacFarland, UMass Lowell Computer Science, jamison_macfarland@student.uml.edu-->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HW4 part 2</title>
+  <meta name="description" content="UML GUI HW4">
+  <meta name="author" content="JMacFarland">
+
+  <link rel="icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <link href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="top" align="center">
+          <h1 align="center">
+          ENTER NUMBERS
+          </h1>
+          <form class="cmxform" id="inputForm">
+            <div id="sx" class="slider"></div>
+            <input type="text" id="start_x" name="start_x" placeholder="Start X" required><br>
+            <div id="ex" class="slider"></div>
+            <input type="text" id="end_x" name="end_x" placeholder="End X" required><br>
+            <div id="sy" class="slider"></div>
+            <input type="text" id="start_y" name="start_y" placeholder="Start Y" required><br>
+            <div id="ey" class="slider"></div>
+            <input type="text" id="end_y" name="end_y" placeholder="End Y" required><br>
+            <input type="submit" id="submit", name="submit", value="Submit" onclick="return makeTable()">
+          </form>
+          <script src="hw4.js"></script>
+          <p id="print_num"></p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped" id="mult"></table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  margin: 0% 50% 0% 50%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* attach form to top, and make it fixed so the table can scroll up "under" it */
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+
+label {
+  /* fixed makes it so the error messages don't bump the input boxes over to the left */
+  position: fixed;
+  color: #8B0000;
+  font-style:italic;
+}
+
+/* move table down so it doesn't get covered by the menu form thing */
+.table {
+  margin-top: 310px;
+}
