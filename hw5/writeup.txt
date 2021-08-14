@@ -1,0 +1,25 @@
+JAMISON MacFarland
+HW5 SCRABBLE
+
+IMPLEMENTED FEATURES:
+ - (4) letter tiles selected with proper distribution
+ - (4) tiles can be dragged/dropped onto target squares
+ - (4) identifies which letter dropped
+ - (4) includes bonus squares
+ - (4) score tallied correctly
+ - (3) any number of words can be played
+ - (3) board cleared after each round (by pressing "get new tiles")
+ - (3) score kept through multiple rounds until reset (by "reset" button)
+ - (2) tiles can only be dragged from rack to board, will bounce back otherwise
+      NOTE: kinda janky, take off a point if you want, I guess
+ - (2) letters can only be placed next to each other
+      NOTE: did not implement disallowing placement, only excluded non-coherent
+      words from score calculations. Suggested 1pt deduction?
+ - (2) user can restart game (using "restart" button)
+
+NOT IMPLEMENTED:
+ - (3) after playing a word, only the number of tiles needed to bring back to 7
+      are added to the hand
+ - (2) once tile is placed it cannot be moved
+      NOTE: prof. discussed this in class... tiles should be movable even after
+      being placed, and I am willing to lose two points to stand by that

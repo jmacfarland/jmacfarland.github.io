@@ -1,0 +1,49 @@
+#board {
+  background-color: black;
+  margin-top: 10px;
+}
+
+#holder {
+  margin-top: 10px;
+  background-image: url("img/holder.png");
+  height: 182px;
+  width: 640px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile {
+  width: 81px;
+  height: 87px;
+  display: inline-block;
+  background-size: 81px 87px;
+}
+
+.piece {
+  width: 81px;
+  height: 87px;
+  display: inline-block;
+  background-size: 81px 87px;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.blank {
+  background-image: url("img/Scrabble_BlankSquare.jpg");
+}
+
+.double_word {
+  background-image: url("img/Scrabble_DoubleWordScore.jpg");
+}
+
+.double_letter {
+  background-image: url("img/Scrabble_DoubleLetterScore.jpg");
+}

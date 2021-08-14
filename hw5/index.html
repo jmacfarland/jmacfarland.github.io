@@ -1,0 +1,43 @@
+<!--
+Jamison MacFarland
+jamison_macfarland@student.uml.edu
+UML GUI HW5 Scrabble
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HW5 Scrabble</title>
+  <meta name="description" content="UML GUI HW5">
+  <meta name="author" content="JMacFarland">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <link href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+  <script src="js/scrabble.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="center" id="board"></div>
+  <div class="center" id="scoreContainer">
+    <p class="center" id="score">Score: 0</p>
+  </div>
+  <div class="center" id="holder"></div>
+  <div class="center" id="controls">
+    <button onclick="newTiles()" class="btn">GET NEW TILES</button>
+    <button onclick="reset()" class="btn">RESET</button>
+    <button onclick="isCoherent()" class="btn">COHERENT?</button>
+    <button onclick="getWordScore()" class="btn">SCORE WORD</button>
+  </div>
+  <div class="center" id="errorContainer">
+    <p hidden class="error" id="nonCoherent">Word is not coherent!</p>
+  </div>
+</body>
+</html>
